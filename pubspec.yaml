@@ -1,6 +1,6 @@
 name: line_dot_dot
 description: A command line interaction toolkit.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/louiskhchan/line_dot_dot
 
 environment:

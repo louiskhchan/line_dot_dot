@@ -1,0 +1,15 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "line_dot_dot",
+			"request": "launch",
+			"console": "terminal",
+			"program": "example/line_dot_dot_example.dart",
+			"type": "dart"
+		}
+	]
+}
