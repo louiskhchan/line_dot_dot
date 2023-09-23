@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:io';
 
 class CommandLineHelper {
@@ -5,8 +6,8 @@ class CommandLineHelper {
     String executable,
     List<String> arguments,
   ) async {
-    var process = await Process.start(executable, arguments);
-    process.stdout.pipe(stdout);
+    final process = await Process.start(executable, arguments);
+    await process.stdout.listen((event) => stdout.add(event)).asFuture();
     return process.exitCode;
   }
 }
