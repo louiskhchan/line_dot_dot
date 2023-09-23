@@ -7,3 +7,6 @@
 
 ## 0.0.3
 - Add export
+
+## 0.0.4
+- Move Process.runAndStream to CommandLineHelper

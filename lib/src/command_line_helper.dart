@@ -1,7 +1,7 @@
 import 'dart:io';
 
-extension ProcessExtension on Process {
-  static Future<int> runAndStream(
+class CommandLineHelper {
+  static Future<int> runProcess(
     String executable,
     List<String> arguments,
   ) async {
